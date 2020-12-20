@@ -22,9 +22,9 @@ class PBSAdapter : RecyclerView.Adapter<PBSAdapter.PBSViewHolder>() {
         RecyclerView.ViewHolder(itemTemperatureHumidityBinding.root) {
         fun bind(data: Feed) {
             this.itemTemperatureHumidityBinding.apply {
-                tvDate.text = data.createdAt
-                tvHumidity.text = data.field1
-                tvTemperature.text = data.field2.toString()
+                tvDate.text = "Tanggal: ${data.createdAt}"
+                tvHumidity.text = "Humidity: ${data.field1}"
+                tvTemperature.text = "Temperature: ${data.field2}"
             }
         }
     }
