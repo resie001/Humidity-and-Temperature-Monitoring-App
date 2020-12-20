@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Temperature Monitor</string>
+    <string name="api_key">FAV16DC137MEX2I5</string>
 </resources>
