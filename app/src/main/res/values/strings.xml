@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Temperature Monitor</string>
     <string name="api_key">FAV16DC137MEX2I5</string>
+    <string name="ade">Ade Resie Muchorobbi Setiawan</string>
+    <string name="dieb">Bacharuddin Adieb Pratama</string>
+    <string name="nur">Nur Wakhidah Fitri Amalia</string>
 </resources>
