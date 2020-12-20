@@ -4,8 +4,9 @@ import kotlinx.coroutines.Deferred
 import lab.chevalier.temperaturemonitor.model.BaseResponse
 import retrofit2.Response
 import retrofit2.http.GET
+import retrofit2.http.Query
 
 interface Request {
-    @GET("channels/1265106/feeds.json?api_key=FAV16DC137MEX2I5")
-    fun getDataAsync(): Deferred<Response<BaseResponse>>
+    @GET("channels/1265106/feeds.json")
+    fun getDataAsync(@Query("api_key") apiKey: String): Deferred<Response<BaseResponse>>
 }
