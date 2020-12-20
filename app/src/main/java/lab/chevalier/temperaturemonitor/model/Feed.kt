@@ -13,5 +13,5 @@ data class Feed(
     @Json(name = "field1")
     val field1: String,
     @Json(name = "field2")
-    val field2: String?
+    val field2: String? = null
 )
